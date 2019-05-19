@@ -17,17 +17,24 @@ html
 
 body
 	height 100%
+	background-color black
+	color silver
 
 a
-	color: brand-orange
+	color: brand-purple
 	&:focus
-		outline: 1px dashed brand-orange
+		outline: 1px dashed brand-purple
 
 .button
-	color brand-grey
-	border 1px solid brand-grey
-	padding 2mm
+	background-color brand-purple
+	border-color darken(brand-purple, 30%)
+	border-radius 5px
+	border-style solid
+	border-width 2px
+	color lighten(brand-purple, 70%)
+	display inline-block
+	margin 5mm
+	padding 3mm
 	text-decoration none
 	&:hover
-		color brand-orange
-		border 1px solid brand-orange
+		background-color darken(brand-purple, 30%)
