@@ -89,3 +89,5 @@ config/*
 !config/default-production.json
 shipitfile.js
 *.sublime-project
+
+static/odroid-images
